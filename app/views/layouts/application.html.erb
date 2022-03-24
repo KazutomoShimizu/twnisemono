@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweet偽物</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <header>
+      <div style="border-radius: 1px; border: 4px dotted #ffb6c1; font-size: 100%; padding: 20px;">
+        課題のTweet偽物サイト
+      </div>
+    </header>
+  </head>
+
+  <body>
+    <%= yield %>
+
+    <footer>
+      <div style="background: #ffb6c1; border: 1px solid #ffb6c1; padding-left: 20px;">
+        <span style="color: white;">ふったぁ</span></div>
+      <div style="border: 1px solid #ffb6c1; font-size: 100%; padding: 20px;">
+          Inchiki.Co
+      </div>
+    </footer>
+  </body>
+</html>
